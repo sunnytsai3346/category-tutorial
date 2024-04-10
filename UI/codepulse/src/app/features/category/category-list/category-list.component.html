@@ -1,0 +1,34 @@
+
+<div class="container text-center">
+    <h1 class="g-3">Categories</h1>
+    <div style="margin:auto" >      
+    <button class="btn btn-secondary" [routerLink]="['/admin/categories/add']">Add Category</button>
+    </div>
+    <div  *ngIf="categories && categories.length>0">
+    
+    <div class="row g-3" style="margin:auto">      
+        <div class="col-12 col-md-6 col-lg-4" *ngFor ="let category of categories">
+          <div class="card  mb-3" style="background-color:rgb(211, 210, 210)">
+            <div class="card-header" style="font-weight:bold; background-color:white">
+              {{ category.name }}
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                {{category.urlHandle}}</p>
+              <a routerLink="/admin/categories/edit/{{category.id}}" class="card-link">Edit</a>              
+              <a href="#" class="card-link">Remove</a>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+   
+    
+       
+    
+    <p *nfIf="!categories || categories.length ==0"> No Categories </p>
+    
+  </div>
