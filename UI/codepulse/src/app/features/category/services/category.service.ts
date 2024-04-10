@@ -9,7 +9,7 @@ import { Category } from '../models/category.model';
 })
 export class CategoryService {
 
-  baseAPIUrl ="https://localhost:7122";
+  baseAPIUrl ="https://localhost:7164";
   constructor(private http:HttpClient) { }
   
   getCategoryList() : Observable<Category[]> {
