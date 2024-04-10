@@ -30,4 +30,18 @@ export class CategoryListComponent implements OnInit {
     })
 
   }
+  DeleteCategory(id:string){
+    this.categoryService.deleteCategory(id)
+    .subscribe({
+      next:(category)=>{
+        this.ngOnInit();
+      },
+      error:(error)=>{
+        console.log(error);
+      }
+    })
+
+
+  }
+
 }

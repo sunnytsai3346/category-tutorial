@@ -31,7 +31,7 @@ export class CategoryService {
     return this.http.put<Category>(this.baseAPIUrl + '/api/categories/'+id ,model);
 
   }
-  deleteProduct(id:string) : Observable<Category>{
+  deleteCategory(id:string) : Observable<Category>{
     return this.http.delete<Category>(this.baseAPIUrl+ '/api/categories/'+id );
   }
 }

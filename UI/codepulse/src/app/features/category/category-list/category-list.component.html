@@ -15,8 +15,8 @@
             <div class="card-body">
               <p class="card-text">
                 {{category.urlHandle}}</p>
-              <a routerLink="/admin/categories/edit/{{category.id}}" class="card-link">Edit</a>              
-              <a href="#" class="card-link">Remove</a>
+              <a routerLink="/admin/categories/edit/{{category.id}}" class="card-link">Edit</a>                            
+              <button class="card-link" style="border:0px" (click)="DeleteCategory(category.id)">Remove</button>
               
             </div>
 
