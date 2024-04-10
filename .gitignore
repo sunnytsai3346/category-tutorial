@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/API/CodePulseAPI/CodePulseAPI/bin/Debug/net8.0
+/API/CodePulseAPI/CodePulseAPI/Migrations
+/API/CodePulseAPI/CodePulseAPI/obj
