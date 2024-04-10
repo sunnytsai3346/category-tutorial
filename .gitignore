@@ -5,3 +5,5 @@
 /API/CodePulseAPI/CodePulseAPI/bin/Debug/net8.0
 /API/CodePulseAPI/CodePulseAPI/Migrations
 /API/CodePulseAPI/CodePulseAPI/obj
+/API/CodePulseAPI/.vs
+API/CodePulseAPI/CodePulseAPI/CodePulseAPI.csproj.user
