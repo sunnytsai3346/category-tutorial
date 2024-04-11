@@ -1,1 +1,3 @@
-.NET core 8.0 with EF core to implement Web API
+<h2>.NET core 8.0 API with Entity Framework, Angular 17, Bootstrap</h2>
+
+
